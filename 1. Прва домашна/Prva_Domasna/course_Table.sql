@@ -1,0 +1,7 @@
+CREATE TABLE course (
+	ID SERIAL PRIMARY KEY,
+	name VARCHAR (100) NOT NULL,
+	credit INTEGER,
+	academic_year INTEGER NOT NULL,
+	semester VARCHAR (100) NOT NULL
+);

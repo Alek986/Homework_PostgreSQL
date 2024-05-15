@@ -1,0 +1,8 @@
+CREATE TABLE teacher (
+	ID SERIAL PRIMARY KEY,
+	first_name VARCHAR (100) NOT NULL,
+	last_name VARCHAR (100) NOT NULL,
+	date_of_birth DATE DEFAULT CURRENT_DATE,
+	academic_rank VARCHAR (100),
+	hire_date DATE DEFAULT CURRENT_DATE
+);
