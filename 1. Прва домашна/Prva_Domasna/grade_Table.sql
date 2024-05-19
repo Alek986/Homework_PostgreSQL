@@ -1,6 +1,6 @@
 CREATE TABLE grade (
 	ID SERIAL PRIMARY KEY,
-	sudent_id INTEGER NOT NULL,
+	student_id INTEGER NOT NULL,
 	course_id INTEGER NOT NULL,
 	teacher_id INTEGER NOT NULL,
 	grade INTEGER NOT NULL,
